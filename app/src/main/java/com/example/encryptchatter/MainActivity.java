@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
         editText.setText("");
 
     }
-   //this method convert noraml messge to encryto format
+   //this method convert noraml messge to encrypt format
     private String AESEncryptionMethod(String string){
     //pas string take and convert to an bytearray
         byte[] stringByte = string.getBytes();
